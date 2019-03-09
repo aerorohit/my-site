@@ -4,7 +4,7 @@
     	<head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rohit Tembhare</title>
+<title>Gyro stabilisation of RC plane</title>
 <meta name="description" content="My personal blog">
 
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -64,36 +64,75 @@
 
     <div class="page-content">
       <div class="wrap">
-      <div class="container-fluid index">
-  <div class="row index all-posts">
+      
 
-    <h1 class="header author-header">Search</h1>
+<div class="container-fluid single">
+  <div class="row">
 
-    <div id="search-container">
-      <input type="text" id="search-input" placeholder="Type here...">
-      <div class="col-md-12 content-panel articles">
-        <ul id="results-container"><small>Start typing to see some results</small></ul>
+    <div itemscope itemtype="http://schema.org/Article" class="col-md-12 article">
+      
+      <div class="thumb">
+        <img itemprop="image" src="http://pngimg.com/uploads/plane/plane_PNG5229.png" alt="Thumbnail: jekyll" />
       </div>
-    </div>
+      
 
-  </div>
-</div>
+      <h1 class="header" itemprop="name">Gyro stabilisation of RC plane</h1>
 
-<hr class="search-hr" />
+      <div class="author">
+        <small><i>
+          
+          by
+          <span itemprop="author">
+            
+            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+              <span itemprop="name">RohitTembhare</span>
+            </span>
+            
+          </span>
+          
+          on <span itemprop="datePublished" content="2014-08-28">March 10, 2019</span>
+           under jekyll
+        </i></small>
+      </div>
 
-<script src="/my-site/js/jekyll-search.js" type="text/javascript"></script>
+      <div class="read-time">
+        <small>
+          1 minute read
+        </small>
+      </div>
 
-<script type="text/javascript">
-  SimpleJekyllSearch.init({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    dataSource: '/my-site/search.json',
-    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}<\/a><\/li>',
-    noResultsText: 'No results found',
-    limit: 10,
-    fuzzy: true,
-  })
-</script>
+      <div class="content-panel content">
+
+        
+
+        <span itemprop="articleBody"><p>I did this project as a part of Institute Technical Summer Project. It primarily involved making the radio controlled(RC) plane stable and semi-autonomous. We used Arduino microcontroller for gathering the orientation data using inertial measurement unit IMU 6050 and then processing it to give correct output to servo motors which controlled control surfaces of the plane. Output was given using PID controller library.</p>
+
+<p>You can find Arduino code <a href="https://github.com/aerorohit/ITSP_gyro_stabilisation">here</a></p>
+</span>
+
+        
+
+        
+        <div class="share">
+          <!-- Go to www.addthis.com/dashboard to customize your tools -->
+          <div class="addthis_sharing_toolbox"></div>
+        </div>
+        
+
+        
+        <div class="tags">
+          <small>
+          <i class="fa fa-tags"></i>
+            Aeromodelling, Arduino
+          </small>
+        </div>
+        
+
+      </div>
+
+      
+
+
 
       </div>
     </div>
