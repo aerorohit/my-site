@@ -19,11 +19,11 @@ body {
   width: 100%; }
 
 a, a:active {
-  color: #3CA2A2;
+  color: #215A6D;
   text-decoration: none; }
 
 a:hover {
-  color: #215A6D;
+  color: #F07241;
   text-decoration: none; }
 
 ul {
@@ -68,7 +68,7 @@ ul {
   cursor: pointer;
   line-height: 1em;
   padding: 10px;
-  background-color: #2D2D29;
+  background-color: #3B3B35;
   z-index: 100; }
   @media (min-width: 768px) {
     .menu-button {

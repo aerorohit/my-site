@@ -4,7 +4,7 @@ title:      Gyro stabilisation of RC plane
 date:       2019-03-10
 author:     RohitTembhare
 summary:    Short writeup about my project.
-categories: jekyll
+categories: projects
 thumbnail:  jekyll
 tags:
  - Aeromodelling

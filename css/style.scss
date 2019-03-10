@@ -30,6 +30,7 @@ $medium-purple:  #480048;
 $regular-purple: #601848;
 $red:            #C04848;
 $orange:         #F07241;
+$content:        #AAF9CC;
 
 /* Responsive sizes */
 $screen-sm-min: 768px;
@@ -54,12 +55,12 @@ body {
 }
 
 a, a:active {
-	color: $light-blue;
+	color: $dark-blue;
 	text-decoration: none;
 }
 
 a:hover {
-	color: $dark-blue;
+	color: $orange;
 	text-decoration: none;
 }
 
@@ -119,7 +120,7 @@ ul {
 	cursor: pointer;
 	line-height: 1em;
 	padding: 10px;
-	background-color: $dark;
+	background-color: $medium;
 	z-index: 100;
 	@media (min-width: $screen-sm-min) {
 		top: 20px;
